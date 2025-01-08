@@ -11,6 +11,16 @@ html {
   overflow: hidden;
 }
 
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.link:hover {
+  color: #c4f82a;;
+}
+
 .CardBackground {
   background-color: #1f1f1f;
 }

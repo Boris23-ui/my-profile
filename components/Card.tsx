@@ -5,11 +5,9 @@ import Image from 'next/image';
 import CustomLink from './Link';
 
 const links = [
-  { linkTitle: "GitHub", link: "https://github.com"},
-  { linkTitle: "Frontend Mentor", link: "https://frontendmentor.com"},
-  { linkTitle: "Linkedin", link: "https://linkedin.com"},
-  { linkTitle: "Twitter", link: "https://x.com"},
-  { linkTitle: "Instagram", link: "https://instagram.com"},
+  { linkTitle: "GitHub", link: "https://github.com/Boris23-ui"},
+  { linkTitle: "Linkedin", link: "https://www.linkedin.com/in/basilkanyami/"},
+  { linkTitle: "Twitter", link: "https://x.com/KBasil52420"},
 ]
 
 
@@ -23,6 +21,7 @@ const Card = () => {
        display:"flex",
        flexDirection: "column",
        justifyContent: "center",
+       alignItems: "center"
       }}
      >
 
@@ -32,18 +31,19 @@ const Card = () => {
        height= {113} 
        width={92} 
        style= {{borderRadius: "50%"}}
-       margin-bottom= "1.5rem" />
+       margin-bottom= "1.5rem" 
+       />
 
        <Typography 
          variant='h1' 
-         sx={{ fontSize: "2.10rem" }}>
+         sx={{ fontSize: "2.10rem", marginBottom: "0.5rem" }}>
            Basil Kanyamibwa
        </Typography>
        <Typography className='neon'
          variant='h2' 
-         sx={{ fontSize: "1.3125rem" }}
+         sx={{ fontSize: "1.3125rem", marginBottom: "1.5rem" }}
          fontWeight={600}>
-           Nairobi Kenya
+           Nairobi, Kenya
        </Typography>
        <Typography 
          variant='h2' 
