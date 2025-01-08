@@ -1,9 +1,6 @@
-
 import Box from "@mui/material/Box";
 import React from "react";
 import Card from "@/components/Card";
-
-
 
 const Home = () => {
   return (
@@ -19,8 +16,6 @@ const Home = () => {
         <Card />
       </Box>
     </Box>
-
-
   );
 };
 
