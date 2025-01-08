@@ -1,9 +1,10 @@
-
 import Box from "@mui/material/Box";
 import React from "react";
 import Card from "@/components/Card";
 
-
+export const metadata = {
+  title: 'My Profile',
+}
 
 const Home = () => {
   return (
